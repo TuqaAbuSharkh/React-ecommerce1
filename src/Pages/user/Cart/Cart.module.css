@@ -1,0 +1,72 @@
+
+.Container11{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+}
+.info{
+    width: 40%;
+    text-align: center;
+    margin: 20px;
+}
+.items{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin :5px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    padding: 15px;
+}
+.item img{
+    width: 25% ;
+    margin: 10px;
+}
+.details{
+    flex: 1;
+}
+.details span{
+    font-weight: 500;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.quantity button{
+    width: auto;
+   padding: 5px 10px;
+   margin: 0 2px;
+    color: #000;
+    background-color: #c5bfbf52;
+    border: solid 1px #aaa3a368;
+    cursor: pointer;
+}
+.order{
+    width: 100px;
+    margin: 15px;
+    background-color: 347255;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.remove{
+    cursor: pointer;
+    color: #fff;
+    background-color: #4c4949d2;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

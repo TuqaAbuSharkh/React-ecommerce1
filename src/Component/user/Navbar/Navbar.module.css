@@ -1,0 +1,31 @@
+
+.brand{
+    display: flex;
+    width: 50%;
+    gap:5px;
+    justify-content: center;
+}
+.Links{
+    width: 50%;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.mid{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.mid a{
+    text-decoration: none;
+    color: black;
+}
+.end{
+    display: flex;
+    width:50%;
+    justify-content: center;
+    list-style-type: none;
+}
